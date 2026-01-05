@@ -1,0 +1,9 @@
+* text=auto
+# Treat all text files as text and normalize line endings
+* text=auto
+
+# Force specific file types to keep LF (optional)
+*.scss text eol=lf
+*.less text eol=lf
+*.svg text eol=lf
+

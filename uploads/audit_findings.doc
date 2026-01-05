@@ -1,0 +1,75 @@
+
+        <html xmlns:o="urn:schemas-microsoft-com:office:office"
+        xmlns:w="urn:schemas-microsoft-com:office:word"
+        xmlns="http://www.w3.org/TR/REC-html40">
+        <head><meta charset="utf-8"></head>
+        <body><table class="table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Ledger Account</th>
+                    <th>Audit Objective</th>
+                    <th>Audit Findings</th>
+                    <th>Reference</th>
+                    <th>Date</th>
+                    <th>Amount Differences</th>
+                    <th>Additional Remarks</th>
+                    <th>Action Required</th>
+                    <th>Audit Status</th>
+                    <th>Next Steps</th>
+                    <th>Reviewer Name</th>
+                    <th>Reviewer Sign</th>
+                    <th>Client Representative</th>
+                    <th>Client's Comment</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>
+                        <select class="form-control account-item-dropdown">
+                            <option value="">Select Account Item</option>
+                                                            <option value="cash">
+                                    cash                                </option>
+                                                            <option value="Account Receivables">
+                                    Account Receivables                                </option>
+                                                    </select>
+                    </td>
+                    <td><input type="text" class="form-control audit-objective" readonly=""></td>
+                    <td>
+                        <select class="form-control audit-findings-dropdown">
+                            <option value="">Select Finding</option>
+                        </select>
+                        <textarea class="form-control mt-2" placeholder="Or write custom finding..." rows="2"></textarea>
+                    </td>
+                    <td><input type="text" class="form-control" placeholder="Reference"></td>
+                    <td><input type="date" class="form-control"></td>
+                    <td><input type="text" class="form-control" placeholder="Amount difference"></td>
+                    <td><textarea class="form-control" placeholder="Remarks" rows="2"></textarea></td>
+                    <td>
+                        <select class="form-control">
+                            <option value="">Select Action</option>
+                            <option value="resolved">Resolved</option>
+                            <option value="pending">Pending</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select class="form-control">
+                            <option value="unresolved">Unresolved</option>
+                            <option value="resolved">Resolved</option>
+                        </select>
+                    </td>
+                    <td><textarea class="form-control" placeholder="Next Steps..." rows="2"></textarea></td>
+                    <td><input type="text" class="form-control" placeholder="Reviewer Name"></td>
+                    <td><input type="checkbox"></td>
+                    <td><input type="text" class="form-control" placeholder="Representative Name"></td>
+                    <td><textarea class="form-control" placeholder="Client's Comment" rows="2"></textarea></td>
+                    <td>
+                        <button class="btn btn-success" onclick="saveRow(this)">Save</button>
+                        <button class="btn btn-warning" onclick="editRow(this)">Edit</button>
+                        <button class="btn btn-danger" onclick="deleteRow(this)">Delete</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table></body></html>

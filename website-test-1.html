@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerar Isaac Training Center (GITC)</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-primary text-white p-3 fixed-top w-100 z-index-10">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1>GITC</h1>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a href="#home" class="nav-link text-white">Home</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link text-white">Courses</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link text-white">About Us</a></li>
+                    <li class="nav-item"><a href="#testimonials" class="nav-link text-white">Testimonials</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link text-white">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section" style="margin-top: 80px;">
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/images/sq-4.jpg" class="d-block w-100" alt="Campus View">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/paptism.jpeg"d-block w-100" alt="Training Session">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/sq-4.jpg" class="d-block w-100" alt="Student Gathering">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="container my-5">
+        <h2 class="text-center mb-4">About Us</h2>
+        <p class="lead">Gerar Isaac Training Center (GITC) is a place where knowledge meets excellence. Our mission is to equip students with the skills they need to succeed in their careers. We provide professional training in various fields, including Accounting, Electrical Engineering, and more. Our staff is dedicated to the academic growth of our students, ensuring they leave with the knowledge and experience necessary for their future.</p>
+        <blockquote class="blockquote text-center">
+            <p>"Education is the most powerful weapon which you can use to change the world." – Nelson Mandela</p>
+        </blockquote>
+        <img src="about-us.jpg" class="d-block mx-auto mt-4" alt="About Us">
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="container my-5">
+        <h2 class="text-center mb-4">Our Courses</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="accounting.jpg" class="card-img-top" alt="Accounting">
+                    <div class="card-body">
+                        <h5 class="card-title">Accounting</h5>
+                        <p class="card-text">Learn the principles of accounting and financial management.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat for other courses -->
+        </div>
+    </section>
+
+    <!-- College Details -->
+    <section id="college-details">
+        <div class="container">
+            <h2>Our Mission, Vision, and Goals</h2>
+            <div class="row">
+                <div class="col-md-4 details-item">
+                    <h4>Established</h4>
+                    <p>Founded in 2010, Gerar Isaac Training Center has been at the forefront of education excellence.</p>
+                    <img src="established.jpg" alt="Established" class="img-fluid">
+                </div>
+                <div class="col-md-4 details-item">
+                    <h4>Mission</h4>
+                    <p>To deliver high-quality training that equips students with the knowledge and skills they need to excel in their careers.</p>
+                    <img src="mission.jpg" alt="Mission" class="img-fluid">
+                </div>
+                <div class="col-md-4 details-item">
+                    <h4>Vision</h4>
+                    <p>To become a globally recognized institution offering diverse educational programs.</p>
+                    <img src="vision.jpg" alt="Vision" class="img-fluid">
+                </div>
+                <div class="col-md-4 details-item">
+                    <h4>Goals</h4>
+                    <p>To empower students with cutting-edge knowledge and foster a community of lifelong learners.</p>
+                    <img src="goals.jpg" alt="Goals" class="img-fluid">
+                </div>
+                <div class="col-md-4 details-item">
+                    <h4>Achievements</h4>
+                    <p>Over 1,000 successful graduates, with 95% employment rates in various sectors.</p>
+                    <img src="achievements.jpg" alt="Achievements" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">What Our Students Say</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <blockquote class="blockquote text-center">
+                        <p>"The best place to learn and grow!"</p>
+                        <footer class="blockquote-footer">John Doe</footer>
+                    </blockquote>
+                    <img src="testimonial1.jpg" alt="John Doe" class="img-fluid mx-auto d-block">
+                </div>
+                <!-- Repeat for more testimonials -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Administrator Message Section -->
+    <section id="administrator">
+        <div class="container">
+            <img src="administrator.jpg" alt="Administrator Image" class="img-fluid">
+            <div class="admin-text">
+                <h3>Message from the Administrator</h3>
+                <p>Welcome to Gerar Isaac Training Center. Our mission is to provide the highest quality of education that prepares our students for success in their careers and lives. Our vision is to become a leader in training professionals across various fields.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Online Registration Section -->
+    <section id="registration" class="container my-5">
+        <h2 class="text-center mb-4">Online Registration</h2>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="course" class="form-label">Select Course</label>
+                <select class="form-control" id="course">
+                    <option>Accounting</option>
+                    <option>Electrical Engineering</option>
+                    <option>Programming</option>
+                    <!-- Add other courses here -->
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Register</button>
+        </form>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="container my-5">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Phone</label>
+                        <input type="tel" class="form-control" id="phone">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <h3>Our Address</h3>
+                <p>Gerar Isaac Training Center (GITC), Addis Ababa, Ethiopia</p>
+                <p>Email: info@gitc.edu</p>
+                <p>Phone: +251-123-456-789</p>
+                <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="300" style="border:0;" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>© 2025 Gerar Isaac Training Center. All Rights Reserved.</p>
+        <p>
+            <a href="#" class="text-white mx-2">Facebook</a>
+            <a href="#" class="text-white mx-2">YouTube</a>
+            <a href="#" class="text-white mx-2">WhatsApp</a>
+        </p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
